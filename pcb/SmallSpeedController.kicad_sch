@@ -2879,7 +2879,7 @@
 	)
 	(rectangle
 		(start 107.95 127)
-		(end 245.11 251.46)
+		(end 251.46 251.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -2903,7 +2903,7 @@
 	)
 	(rectangle
 		(start 107.95 19.05)
-		(end 245.11 125.73)
+		(end 251.46 125.73)
 		(stroke
 			(width 0)
 			(type default)
@@ -7620,7 +7620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 186.69 234.9499 0)
 			(effects
 				(font
@@ -7853,7 +7853,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AP62300TWU"
 			(at 52.07 30.48 0)
 			(effects
 				(font
