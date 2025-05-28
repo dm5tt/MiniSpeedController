@@ -4629,7 +4629,7 @@
 		)
 		(uuid "3aa0be8f-e1e2-432e-b93b-02cec098f0f4")
 	)
-	(label "SWDIO"
+	(label "+3V3"
 		(at 50.8 148.59 180)
 		(effects
 			(font
@@ -4799,16 +4799,6 @@
 		)
 		(uuid "7b3fd391-c5f6-484a-8cd8-26493c32509b")
 	)
-	(label "nRST"
-		(at 50.8 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c27bfd3-66b6-4c4c-a126-2cc899294e7c")
-	)
 	(label "pwm_speed_input2"
 		(at 201.93 170.18 0)
 		(effects
@@ -4848,6 +4838,16 @@
 			(justify right bottom)
 		)
 		(uuid "83ef86bc-70e8-40ab-9d1c-e8f918e39a91")
+	)
+	(label "SWDIO"
+		(at 41.91 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8535dce5-70f8-46a2-b722-c22df265915f")
 	)
 	(label "motcon1_pwm_in1"
 		(at 181.61 43.18 0)
@@ -9574,6 +9574,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8b4255b-ea5f-4efd-acc9-073ab1208d65")
+		(property "Reference" "#PWR010"
+			(at 44.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31308122-8d74-4341-8f49-bb24ca01b614")
+		)
+		(instances
+			(project "SmallSpeedController"
+				(path "/ad61fa74-e1dd-4b78-9d6b-122c1a722d03"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 130.81 91.44 0)
 		(unit 1)
@@ -9857,71 +9922,6 @@
 			(project "MiniRiscVBot"
 				(path "/ad61fa74-e1dd-4b78-9d6b-122c1a722d03"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1fc68b7-6079-4ec3-9a30-134309fe08ab")
-		(property "Reference" "#PWR031"
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2af94c3-f9c2-486c-93ad-7c68a88f570e")
-		)
-		(instances
-			(project "MiniRiscVBot"
-				(path "/ad61fa74-e1dd-4b78-9d6b-122c1a722d03"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
