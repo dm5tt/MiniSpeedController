@@ -41,7 +41,7 @@ Mostly for playing around with very cheap RISC-V microcontrollers and an execise
 | PC1 | I2C, SDA         |
 | PC2 | I2C, SCL         |
 | PC3 | motcon2_sleep    |
-| PC4 | motcon2_in       |
+| PC4 | motcon2_in2      |
 | PC5 | motcon1_sleep    |
 | PC6 | motcon1_in2      |
 | PC7 | X                |
