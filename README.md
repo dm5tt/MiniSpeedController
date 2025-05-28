@@ -35,6 +35,9 @@ Mostly for playing around with very cheap RISC-V microcontrollers and an execise
 
 ## Pin Configuration
 
+![image](https://github.com/user-attachments/assets/b424ab9a-8a29-4e83-9ee3-e595265dfe8d)
+
+
 | Pin | Meaning          |
 |-----|------------------|
 | PC0 | pwm_speed_input1 |
