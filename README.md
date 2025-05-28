@@ -10,6 +10,7 @@ Beware that the entire PCB isn't a masterpiece as this is just for technology ev
 
 Mostly for playing around with very cheap RISC-V microcontrollers and an execise for C/Rust with very limited resources.
 
+It can be used for controlling simple toy robot chassis that usually have two DC motors with light barriers.
 
 ## Features
 
