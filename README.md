@@ -14,25 +14,14 @@ It can be used for controlling simple toy robot chassis that usually have two DC
 
 ## Features
 
-- **Microcontroller**: WCH CH32V003  
-  - 48 MHz RISC-V core  
-  - 16 KB Flash, 2 KB SRAM  
-
-- **Motor Driver**: TI DRV8837GSGR  
-  - Low-voltage brushed DC motor driver  
-  - Up to 1.8 A continuous current  
-
-- **Power Management**:  
-  - **AP62300TWU** (Diodes Inc.): 3 A Step-Down Buck Converter  
-  - **AMS1117-3.3** (Advanced Monolithic): LDO for regulated 3.3 V output from 7 V supply  
-
-- **Feedback**:  
-  - Motor speed measured via PWM from optical light barriers  
-
-- **Control Interface**:  
-  - Commands received over USART
-  - Sensors can be attached using I2C  
-
+- **WCH CH32V003**: 48 MHz RISC-V microcontroller with 16 KB Flash, 2 KB SRAM  
+- **Texas Instruments DRV8837GSGR**: Low-voltage brushed DC motor driver, up to 1.8 A continuous current  
+- **Diodes Inc. AP62300TWU**: 3 A step-down (buck) converter  
+- **Advanced Monolithic Systems AMS1117-3.3**: LDO regulator providing 3.3 V from a 7 V input  
+- **Optical encoders**: Provide motor speed feedback via PWM signals  
+- **Exposed Communication interfaces**:  
+  - **USART**: Command input  
+  - **I²C**: External sensor connectivity  
 
 ## Pin Configuration
 
