@@ -50,14 +50,12 @@ It can be used for controlling simple toy robot chassis that usually have two DC
 | PA2 | STATUS_LED       |
 
 
-## Warning
-
-Hardware verification not yet finished.
+## Hardware verification
 
 List:
  - ✅ DCDC
  - ✅ LDO
- - ☐ CH32V003
+ - ✅ CH32V003
  - ☐ DRV8837GSGR
  
 
