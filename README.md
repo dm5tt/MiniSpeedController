@@ -25,7 +25,6 @@ It can be used for controlling simple toy robot chassis that usually have two DC
 
 ## Pin Configuration
 
-![img1](https://github.com/user-attachments/assets/385c92f4-0090-49fd-bb3f-132e2bab14fb)
 
 | Pin | Meaning          |
 |-----|------------------|
@@ -51,7 +50,7 @@ It can be used for controlling simple toy robot chassis that usually have two DC
 
 ## Hardware verification
 
-![img1](https://github.com/user-attachments/assets/6d247343-c49b-434c-bf40-afb76e89f63f)
+![img1](https://github.com/user-attachments/assets/44d68208-000f-45bb-98cf-6f83e8618449)
 
 List:
  - ✅ DCDC
