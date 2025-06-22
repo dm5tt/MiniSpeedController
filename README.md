@@ -52,14 +52,14 @@ It can be used for controlling simple toy robot chassis that usually have two DC
 
 ## Hardware verification
 
+![img1](https://github.com/user-attachments/assets/6d247343-c49b-434c-bf40-afb76e89f63f)
+
 List:
  - ✅ DCDC
  - ✅ LDO
  - ✅ CH32V003
  - ☐ DRV8837GSGR
  
-
-
 # License
 
 GPLv3
