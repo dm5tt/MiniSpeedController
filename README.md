@@ -16,7 +16,6 @@ It can be used for controlling simple toy robot chassis that usually have two DC
 
 ## System Overview
 
-### Components
 #### Power Supply
   - AP62300 (3A Buck Converter) → 7V rail (for DC motors)  
   - AMS1117-3.3 (LDO Regulator) → 3.3V rail (for microcontroller and motor driver logic)  
