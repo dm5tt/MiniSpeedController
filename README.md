@@ -4,7 +4,7 @@
 
 This project implements a compact DC motor speed controller using a RISC-V microcontroller. 
 
-It is designed for speed control via PWM feedback and communicates through a serial interface. Additional  sensors can be attached using I2C.
+It is designed for speed control via pulse feedback from a light barrier and communicates through a serial interface. Additional  sensors can be attached using I2C.
 
 Beware that the entire PCB isn't a masterpiece as this is just for technology evaluation. 
 
