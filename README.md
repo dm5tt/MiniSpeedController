@@ -2,7 +2,9 @@
 
 # Mini (RISC-V DC-Motor) Speed Controller
 
-This project implements a compact DC motor speed controller using a RISC-V microcontroller. It is designed for precision control via PWM feedback and communicates through a serial interface. Additional  sensors can be attached using I2C.
+This project implements a compact DC motor speed controller using a RISC-V microcontroller. 
+
+It is designed for speed control via PWM feedback and communicates through a serial interface. Additional  sensors can be attached using I2C.
 
 Beware that the entire PCB isn't a masterpiece as this is just for technology evaluation. 
 
