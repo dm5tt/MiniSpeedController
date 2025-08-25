@@ -19,7 +19,4 @@ void minispeedcontroller_led_init (void) {
 
 void minispeedcontroller_led_set (_Bool state) {
     GPIO_WriteBit (GPIOA, MINISPEEDCONTROLLER_LED_PIN, state ? Bit_SET : Bit_RESET);
-    Delay_Ms (10);
-    GPIO_WriteBit (GPIOA, MINISPEEDCONTROLLER_LED_PIN, state ? Bit_SET : Bit_SET);
-    Delay_Ms (10);
 }
