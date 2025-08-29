@@ -3171,6 +3171,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 173.99) (xy 55.88 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2207d789-8dac-41c2-a504-03f06dd814cf")
+	)
+	(wire
+		(pts
 			(xy 181.61 66.04) (xy 181.61 69.85)
 		)
 		(stroke
@@ -3861,16 +3871,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 173.99) (xy 55.88 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d891ed3-e8c2-4ea4-9f72-83c2ac6f03ab")
-	)
-	(wire
-		(pts
 			(xy 139.7 106.68) (xy 137.16 106.68)
 		)
 		(stroke
@@ -3988,6 +3988,16 @@
 			(type default)
 		)
 		(uuid "b2f64f23-168b-4db1-b9f5-95e745c6621c")
+	)
+	(wire
+		(pts
+			(xy 52.07 176.53) (xy 55.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32cccb1-228e-4bc3-872c-50d5793d45dc")
 	)
 	(wire
 		(pts
@@ -4341,16 +4351,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 176.53) (xy 55.88 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd5db3cc-2f45-4148-8b6f-54ca78505e84")
-	)
-	(wire
-		(pts
 			(xy 130.81 86.36) (xy 130.81 87.63)
 		)
 		(stroke
@@ -4580,7 +4580,7 @@
 		(uuid "5566139d-4ac6-4348-9342-45f8c210e225")
 	)
 	(label "uart_tx"
-		(at 52.07 173.99 180)
+		(at 52.07 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4590,7 +4590,7 @@
 		(uuid "594fc33a-0118-4071-bded-f90b5efe2937")
 	)
 	(label "uart_rx"
-		(at 52.07 176.53 180)
+		(at 52.07 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
