@@ -4546,7 +4546,7 @@
 	(footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "686fba6d-5fcf-4837-a55c-bdba9d85fba2")
-		(at 33.91 96.12)
+		(at 34.07 96.81)
 		(descr "JST PH series connector, B4B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J6"
@@ -11063,8 +11063,8 @@
 		(layer "Edge.Cuts")
 		(uuid "5cafbcc6-9450-4a46-b883-6de513586158")
 	)
-	(gr_text "G"
-		(at 35.95 75.53 90)
+	(gr_text "-"
+		(at 36 75.47 90)
 		(layer "F.SilkS")
 		(uuid "0c8c0a37-2736-4146-b10e-c2ec05f9ad7a")
 		(effects
@@ -11111,7 +11111,7 @@
 		)
 	)
 	(gr_text "USART"
-		(at 39.95 93.56 0)
+		(at 40.47 94.04 0)
 		(layer "F.SilkS")
 		(uuid "4cae86d2-0945-41f5-922c-9920e1729413")
 		(effects
@@ -11170,8 +11170,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "G"
-		(at 36.48 100.26 90)
+	(gr_text "-"
+		(at 36.49 101.48 90)
 		(layer "F.SilkS")
 		(uuid "6336ed21-5e9c-4b59-b50e-1c3bd745f1cb")
 		(effects
@@ -11182,8 +11182,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3V3"
-		(at 33.87 76.3 90)
+	(gr_text "+"
+		(at 33.78 75.45 90)
 		(layer "F.SilkS")
 		(uuid "795fba29-64fe-4e8e-a4cf-7138349ef233")
 		(effects
@@ -11229,7 +11229,7 @@
 		)
 	)
 	(gr_text "R"
-		(at 40.55 100.21 90)
+		(at 40.78 101.35 90)
 		(layer "F.SilkS")
 		(uuid "9a192565-69a6-4aef-81a8-177fe6f294f3")
 		(effects
@@ -11277,7 +11277,7 @@
 		)
 	)
 	(gr_text "Mini\nSpeed\nController"
-		(at 24.94 103.47 0)
+		(at 24.93 104.03 0)
 		(layer "F.SilkS")
 		(uuid "b288fe45-13a8-4560-8a0b-2e340caf4a40")
 		(effects
@@ -11348,7 +11348,7 @@
 		)
 	)
 	(gr_text "T"
-		(at 38.68 100.16 90)
+		(at 38.71 101.22 90)
 		(layer "F.SilkS")
 		(uuid "e3668a88-1c26-4849-a2d8-71a31391032e")
 		(effects
@@ -11359,8 +11359,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3V3"
-		(at 34.256248 102.065 90)
+	(gr_text "+"
+		(at 34.46 101.48 90)
 		(layer "F.SilkS")
 		(uuid "e6f738db-253c-47ce-95d9-e9fb701391ca")
 		(effects
