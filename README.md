@@ -56,8 +56,8 @@ It can be used for controlling simple toy robot chassis that usually have two DC
 #### Communication Interfaces
 | Pin | Meaning          |
 |-----|------------------|
-| PC1 | I2C, SDA         |
-| PC2 | I2C, SCL         |
+| PC1 | i2c_sda          |
+| PC2 | i2c_scl          |
 | PD5 | usart_tx         |
 | PD6 | usart_rx         |
 
@@ -70,7 +70,7 @@ It can be used for controlling simple toy robot chassis that usually have two DC
 #### Indicators
 | Pin | Meaning          |
 |-----|------------------|
-| PA2 | STATUS_LED       |
+| PA2 | status_led       |
 
 ### Unused / Spare
 | Pin | Meaning          |
